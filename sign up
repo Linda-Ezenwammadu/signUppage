@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <title>signup page</title>
+    
+</head>
+
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: poppins, Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            color: #666666;
+            background: #eaeff4;
+        }
+
+        .wrapper {
+            margin: 0 auto;
+            width: 100%;
+            max-width: 1140px;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .container {
+            position: relative;
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            display: flex;
+            background: #ffffff;
+            box-shadow: 0 0 5px #999999;
+        }
+
+        .login .col-left {
+            padding: 70px;
+            display: flex;
+            width: 60%;
+            color: #ffffff;
+            clip-path: polygon(0% 0%, 0% 871%, 113% 0%);
+            background: #2aa15f;
+        }
+
+        .login .col-right {
+            padding: 60px 30px;
+        }
+
+
+        .login .login-text {
+            position: relative;
+            width: 100%;
+            color: #ffff;
+        }
+
+        .login .login-text h2 {
+            margin: 0 0 15px 0;
+            font-size: 30px;
+            font-weight: 700;
+        }
+
+        .login .login-text p {
+            margin: 0 0 20px 0;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 22px;
+        }
+
+        .login .login-text .btn {
+            display: inline-block;
+            font-family: poppins;
+            padding: 20px 33px;
+            font-size: 16px;
+            letter-spacing: 1px;
+            text-decoration: none;
+            border-radius: 1px;
+            color: #ffffff;
+            outline: none;
+            border: 2px solid #ffffff;
+            box-shadow: inset 0 0 0 0 #ffffff;
+            transition: .3s;
+        }
+
+        .login .login-text .btn:hover {
+            color: #2aa15f;
+            box-shadow: inset 150px 0 0 0 #ffffff;
+        }
+
+        .login .login-form {
+            position: relative;
+            width: 100%;
+        }
+
+        .login .login-form h2 {
+            margin: 0 0 15px 0;
+            font-size: 33px;
+            font-weight: 700;
+        }
+
+        .login .login-form p {
+            margin: 20px 0 55px 0;
+            text-align: left;
+            color: #666666;
+            font-size: 15px;
+        }
+
+        .btn {
+            border: 2px solid #99999977;
+            text-align: left;
+            margin: 3px
+        }
+
+        .user-type a {
+            display: inline-block;
+            font-family: poppins;
+            padding: 10px 175px;
+            margin: 30px 0 -40px 0;
+            font-size: 16px;
+            letter-spacing: 1px;
+            text-decoration: none;
+            border-radius: 1px;
+            color: #ffffff;
+            background-color: rgba(255, 68, 0, 0.795);
+            outline: none;
+            border: 1px solid;
+            box-shadow: inset 0 0 0 0 #ffffff;
+            transition: .3s;
+        }
+
+        .user-type a:hover {
+            color: rgba(255, 68, 0, 0.795);
+            border: 1px solid rgba(255, 68, 0, 0.795);
+            box-shadow: inset 150px 0 0 0 #ffffff;
+        }
+    </style>
+
+    <div class="wrapper login">
+        <div class="container">
+            <div class="col-left">
+                <div class="login-text">
+                    <h2>
+                        Already have an account?
+                    </h2>
+                    <p>
+                        Welcome back!
+                    </p>
+                    <p>
+                        Sign in to VerifyMe with your credentials
+                    </p>
+                    <a href="#" class="btn"><strong>SIGN IN</strong></a>
+                </div>
+            </div>
+
+            <div class="col-right">
+                <div class="login-form">
+                    <h2>
+                        Sign up to get started
+                    </h2>
+                    <p>
+                        Start getting to know your customers better
+                    </p>
+                </div>
+
+                <div class="user-type">
+                    <h6>
+                        USER TYPE
+                    </h6>
+
+                    <button type="button" class="btn corp">
+                        <strong>Corporate</strong>
+                        <p>Choose this if you have a registered business with an RC Number,
+                            BN Number, CAC Number, etc.</p>
+                    </button>
+
+                    <button type="button" class="btn">
+                        <strong>Individual</strong>
+                        <p>Choose this if you are an individual or if you do not have a registered business.
+                        </p>
+                    </button>
+
+                    <a href="#" class="btn"><strong>CONTINUE</strong></a>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
